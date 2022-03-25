@@ -10,10 +10,13 @@ import static com.codeborne.selenide.Selenide.$;
 public class RegistrationPage {
     public SelenideElement
 
-    RegistrationButton = $(byText("ახალი ვარ SHOPSHOP-ზე")),
-    emailinput =  $(byAttribute("name","email")),
-    passwordinput = $(byAttribute("name","password")),
-    confirmpasswordinput = $(byAttribute("name","confirm_password")),
-    UserIsOnRegistrationPage = $(byText("ninoo.khutsishvili@gmail.com"));
+            RegistrationButton = $(byText("ახალი ვარ SHOPSHOP-ზე")),
+            emailinput = $(byAttribute("name", "email")),
+            passwordinput = $(byAttribute("name", "password")),
+            confirmpasswordinput = $(byAttribute("name", "confirm_password")),
+            firstnameinput = $(byAttribute("name", "first_name")),
+            lastnameinput = $(byAttribute("name", "last_name")),
+            UserIsOnRegistrationPage = $(byText("ninoo.khutsishvili@gmail.com"));
 
 }
+
